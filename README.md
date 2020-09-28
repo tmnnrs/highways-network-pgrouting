@@ -33,4 +33,4 @@ The included HTML documents can be run on a local web server (running PHP) as a 
 
 The **shortest-path** examples allow users to drag the start/destination points around; and [optionally] selecting the type of route (shortest vs fastest).
 
-The **service-area** examples allow users to drag the origin point around; as well as choosing the drive-time; and output type: alpha shape (polygon) or driving distance (line).
+The **service-area** examples allow users to drag the origin point around; as well as choosing the drive-time and output type: alpha shape (polygon) or driving distance (line).
