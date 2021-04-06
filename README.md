@@ -21,7 +21,7 @@ The following SQL scripts output data for use in routing applications.
 - [prepare-graph-pedestrian-basic.sql](prepare-graph-pedestrian-basic.sql)
   - Generates a routable network for pedestrians by integrating the OS MasterMap Highways Network Road and Path products.
 
-Each of the script will ultimately output two tables: a node lookup (called **node_table**) and a directed graph (called **edge_table**). Both use the RoadLink tables as their source.
+Each of the scripts will ultimately output two tables: a node lookup (called **node_table**) and a directed graph (called **edge_table**). Both use the RoadLink tables as their source.
 
 The node lookup is generated using the startNode and endNode references. Where appropriate, it introduces additional nodes using the grade separation to ensure the real-world physical separations between RoadLinks are handled accordingly.
 
